@@ -1,0 +1,11 @@
+$all-headings-color: #FF1719;
+
+@mixin random_rules {
+  color: $all-headings-color;
+  font-size: 19px;
+  border: 1px solid black;
+}
+
+h1 {
+  @include random_rules;
+}
